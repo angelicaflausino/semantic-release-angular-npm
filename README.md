@@ -2,6 +2,7 @@
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to compile and package Angular libraries in Angular Package Format (APF) using [ng-packagr](https://github.com/ng-packagr/ng-packagr) and publish [npm](https://www.npmjs.com/) package.
 
+This repository is based on the repo [@semantic-release/npm](https://github.com/semantic-release/npm) and has some changes in the prepare step for compiling and packaging angular libraries in [APF](https://angular.io/guide/angular-package-format) format.
 
 
 | Step               | Description                                                                                                                      |
@@ -178,3 +179,7 @@ When publishing from a sub-directory with the `pkgRoot` option, the `package.jso
   }
 }
 ```
+
+# Special Thanks
+
+I thank all the authors and contributors of the [@semantic-release/npm](https://github.com/semantic-release/npm) project for sharing this tool with the community and congratulations on the excellent work.
