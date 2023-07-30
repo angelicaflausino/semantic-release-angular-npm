@@ -1,0 +1,16 @@
+{
+    "branches": [
+      { "name": "main" },
+      { "name": "beta/*", "channel": "beta", "prerealease": true },
+      { "name": "release/*", "channel": "rc", "prerealease": true }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ],
+    "preset": "angular"
+  }
